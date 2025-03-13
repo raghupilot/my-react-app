@@ -142,5 +142,57 @@
         ]
       }
     ]
+  },
+  "11": {
+    "version": "Java SE 11",
+    "releaseDate": "September 25, 2018",
+    "jeps": [
+      {
+        "number": "323",
+        "title": "Local-Variable Syntax for Lambda Parameters",
+        "description": "Allows var to be used in lambda parameters",
+        "examples": [
+          "https://openjdk.org/jeps/323",
+          "https://mkyong.com/java/java-11-var-in-lambda-expressions/",
+          "https://www.baeldung.com/java-var-lambda-params",
+          "https://blogs.oracle.com/javamagazine/post/java-var-lambda-parameters"
+        ]
+      },
+      {
+        "number": "321",
+        "title": "HTTP Client (Standard)",
+        "description": "Adds a standard HTTP client API to the JDK",
+        "examples": [
+          "https://openjdk.org/jeps/321",
+          "https://www.baeldung.com/java-9-http-client",
+          "https://mkyong.com/java/java-11-httpclient-examples/",
+          "https://www.tutorialspoint.com/java11/java11_httpclient.htm",
+          "https://docs.oracle.com/en/java/javase/11/docs/api/java.net.http/java/net/http/HttpClient.html"
+        ]
+        
+      },
+      {
+        "number": "328",
+        "title": "Flight Recorder",
+        "description": "Provides a low-overhead data collection framework for troubleshooting",
+        "examples": [
+          "https://www.baeldung.com/java-flight-recorder-monitoring",
+          "https://docs.oracle.com/javacomponents/jmc-5-4/jfr-runtime-guide/run.htm",
+          "https://github.com/flight-recorder-examples/basic-event-examples",
+          "https://developers.redhat.com/blog/2020/08/25/get-started-with-jdk-flight-recorder-in-openjdk-11",
+          "https://www.tutorialspoint.com/java11/java11_flight_recorder.htm"
+        ] 
+      },
+      {
+        "number": "333",
+        "title": "ZGC: A Scalable Low-Latency Garbage Collector",
+        "description": "Adds a new garbage collector (ZGC) that is designed for low latency and scalability",
+        "examples": [
+          "https://openjdk.org/jeps/333",
+          "https://wiki.openjdk.org/display/zgc/Main",
+          "https://www.baeldung.com/jvm-zgc-garbage-collector"
+        ]
+      }
+    ]
   }
 }

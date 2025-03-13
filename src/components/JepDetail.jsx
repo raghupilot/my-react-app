@@ -39,7 +39,15 @@ const JepDetail = ({ jepData }) => {
                    url.includes('happycoders') ? 'Happy Coders Tutorial' : 
                    url.includes('oracle') ? 'Oracle Documentation' : 
                    url.includes('infoworld') ? 'InfoWorld Article' :
-                   'Example Resource'}
+                   url.includes('mkyong') ? 'Mkyong Tutorial' :
+                   url.includes('tutorialspoint') ? 'Tutorialspoint Tutorial' :
+                   url.includes('docs.oracle') ? 'Oracle Documentation' :
+                   url.includes('github') ? 'GitHub Repository' :
+                   url.includes('wikipedia') ? 'Wikipedia Article' :
+                   url.includes('medium') ? 'Medium Article' :
+                   
+                   url}
+                   
                 </a>
               </li>
             ))}
