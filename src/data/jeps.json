@@ -1,0 +1,146 @@
+{
+  "8": {
+    "version": "Java SE 8",
+    "releaseDate": "March 18, 2014",
+    "jeps": [
+      {
+        "number": "126",
+        "title": "Lambda Expressions",
+        "description": "Add lambda expressions, default methods, and related features to the Java programming language and modify the VM and libraries to support them.",
+        "examples": [
+          "https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html",
+          "https://www.happycoders.eu/java/lambda-expressions-tutorial/"
+        ]
+      },
+      {
+        "number": "138",
+        "title": "Autoconf-Based Build System",
+        "description": "Provide a new build system for the JDK, based on the GNU Autoconf framework.",
+        "examples": [
+          "https://openjdk.org/jeps/138"
+        ]
+      },
+      {
+        "number": "139",
+        "title": "Enhance javac to Improve Build Speed",
+        "description": "Improve the build speed of large projects by enhancing javac to store symbol information in a separate cache.",
+        "examples": [
+          "https://www.infoworld.com/article/2609090/java-8-s-key-to-success-the-new-jdk.html"
+        ]
+      },
+      {
+        "number": "142",
+        "title": "Reduce Cache Contention on Specified Fields",
+        "description": "Reduce cache contention for fields that are frequently accessed in parallel by different threads.",
+        "examples": [
+          "https://openjdk.org/jeps/142"
+        ]
+      },
+      {
+        "number": "153",
+        "title": "Launch JavaFX Applications",
+        "description": "Define a standard and convenient way to launch JavaFX applications.",
+        "examples": [
+          "https://docs.oracle.com/javase/8/javafx/api/javafx/application/Application.html"
+        ]
+      }
+    ]
+  },
+  "9": {
+    "version": "Java SE 9",
+    "releaseDate": "September 21, 2017",
+    "jeps": [
+      {
+        "number": "200",
+        "title": "The Modular JDK",
+        "description": "Modularize the JDK and make it scale down for small devices, improve security and maintainability, and improve performance.",
+        "examples": [
+          "https://www.baeldung.com/java-9-modularity",
+          "https://openjdk.org/jeps/200"
+        ]
+      },
+      {
+        "number": "213",
+        "title": "Milling Project Coin",
+        "description": "A follow-up to Project Coin that includes small language changes to improve the developer experience.",
+        "examples": [
+          "https://www.oracle.com/technical-resources/articles/java/ma14-java-se-8-trends.html"
+        ]
+      },
+      {
+        "number": "222",
+        "title": "jshell: The Java Shell",
+        "description": "Create an interactive tool for evaluating declarations, statements, and expressions of the Java programming language.",
+        "examples": [
+          "https://docs.oracle.com/javase/9/jshell/introduction-jshell.htm",
+          "https://www.baeldung.com/java-9-repl"
+        ]
+      },
+      {
+        "number": "266",
+        "title": "More Concurrency Updates",
+        "description": "Improve the CompletableFuture API and add interoperation with other concurrency components.",
+        "examples": [
+          "https://www.baeldung.com/java-9-completablefuture"
+        ]
+      },
+      {
+        "number": "269",
+        "title": "Convenience Factory Methods for Collections",
+        "description": "Define library APIs to make it convenient to create instances of collections and maps with small numbers of elements.",
+        "examples": [
+          "https://www.baeldung.com/java-9-collections-factory-methods",
+          "https://openjdk.org/jeps/269"
+        ]
+      }
+    ]
+  },
+  "10": {
+    "version": "Java SE 10",
+    "releaseDate": "March 20, 2018",
+    "jeps": [
+      {
+        "number": "286",
+        "title": "Local-Variable Type Inference",
+        "description": "Enhance the Java Language to extend type inference to declarations of local variables with initializers.",
+        "examples": [
+          "https://www.baeldung.com/java-10-local-variable-type-inference",
+          "https://openjdk.org/jeps/286"
+        ]
+      },
+      {
+        "number": "296",
+        "title": "Consolidate the JDK Forest into a Single Repository",
+        "description": "Combine the numerous repositories of the JDK forest into a single repository.",
+        "examples": [
+          "https://openjdk.org/jeps/296"
+        ]
+      },
+      {
+        "number": "304",
+        "title": "Garbage-Collector Interface",
+        "description": "Improve the source code isolation of different garbage collectors by introducing a clean garbage collector interface.",
+        "examples": [
+          "https://openjdk.org/jeps/304"
+        ]
+      },
+      {
+        "number": "307",
+        "title": "Parallel Full GC for G1",
+        "description": "Improve G1 worst-case latencies by making the full GC parallel.",
+        "examples": [
+          "https://openjdk.org/jeps/307"
+        ]
+      },
+      {
+        "number": "310",
+        "title": "Application Class-Data Sharing",
+        "description": "Extend the existing Class-Data Sharing (CDS) feature to allow application classes to be placed in the shared archive.",
+        "examples": [
+          "https://openjdk.org/jeps/310",
+          "https://www.baeldung.com/java-10-performance-improvements"
+        ]
+      }
+    ]
+  }
+}
