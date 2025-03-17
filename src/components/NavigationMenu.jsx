@@ -1,11 +1,14 @@
 // NavigationMenu.jsx - Side navigation menu with version selection
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 
 const NavigationMenu = ({ versions }) => {
   return (
     <nav className="navigation-menu">
-      <h3>Java Versions</h3>
+      <h3>JEPs and Projects</h3>
+      <ul>
+      <Link to="/projects">Java Projects</Link>
+      </ul>
       <ul>
         {versions.map(version => (
           <li key={version}>

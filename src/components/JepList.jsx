@@ -8,10 +8,27 @@ const JepList = ({ jepData, searchTerm }) => {
   if (!jepData[version]) {
     return <div className="error-message">Version not found.</div>;
   }
-  
-  const versionData = jepData[version];
-  const filteredJeps = searchTerm 
-    ? versionData.jeps.filter(jep => 
+    const results = [];
+    const versionData = jepData[version];
+    const searchTermLower = searchTerm.toLowerCase();
+    Object.entries(jepData).forEach(([version, versionData]) => {
+      versionData.jeps.forEach(jep => {
+        const matchesNumber = jep.number.toString().includes(searchTermLower);
+        const matchesTitle = jep.title.toLowerCase().includes(searchTermLower);
+        const matchesDescription = jep.description.toLowerCase().includes(searchTermLower);
+
+        if (matchesNumber || matchesTitle || matchesDescription) {
+          results.push({
+            version,
+            number: jep.number,
+            title: jep.title,
+            description: jep.description
+          });
+        }
+      });
+    });
+    const filteredJeps = searchTerm 
+      ? versionData.jeps.filter(jep => 
         jep.title.toLowerCase().includes(searchTerm.toLowerCase()) || 
         jep.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
         jep.number.includes(searchTerm)
